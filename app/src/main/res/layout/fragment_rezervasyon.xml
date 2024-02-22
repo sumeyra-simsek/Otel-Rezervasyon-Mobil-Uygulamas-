@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cerceve.RezervasyonFragment">
+
+
+    <TextView
+        android:id="@+id/txtsehirname"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="fgdd"
+        android:textAlignment="center"
+        android:textColor="@color/teal_100"
+        android:background="@color/gri"
+        android:layout_marginStart="80dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtotelname"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/teal_100"
+        android:background="@color/gri"
+        android:layout_marginStart="200dp"></TextView>
+
+
+
+    <TextView
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="105dp"
+    android:layout_marginStart="20dp"
+    android:text="Otele Giriş Tarihi Seçiniz:"
+    android:textSize="15dp"
+    android:textColor="@color/gri">
+</TextView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginStart="20dp"
+        android:text="Otelden Çıkış Tarihi Seçiniz:"
+        android:textSize="15dp"
+        android:textColor="@color/gri"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="263dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="195dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnDonus"
+            android:layout_width="191dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="16dp"
+            android:text="Tarih Seç" />
+
+        <TextView
+            android:id="@+id/txtDonus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Çıkış Tarihi: "
+            android:textSize="16sp"
+            android:textColor="@color/gri"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="263dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="150dp"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnGidis"
+            android:layout_width="191dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="16dp"
+            android:text="Tarih Seç" />
+
+        <TextView
+            android:id="@+id/txtGidis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Giriş Tarihi: "
+            android:textSize="16sp"
+            android:textColor="@color/gri"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="320dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:text="    Oda Tipi  Tercihiniz:"
+            android:textColor="@color/gri"></TextView>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="0dp"
+            >
+
+        </androidx.appcompat.widget.AppCompatSpinner>
+        <TextView
+            android:id="@+id/txt_spinner"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Oda Tercihiniz:"
+            android:textColor="@color/gri"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="370dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:text="Oda numarası:"
+            android:textColor="@color/gri"
+
+            ></TextView>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinnerOda"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="0dp"
+            >
+
+        </androidx.appcompat.widget.AppCompatSpinner>
+        <TextView
+            android:id="@+id/txt_odano"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Oda No:"
+            android:textColor="@color/gri"></TextView>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="105dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="450dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_rezerve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/icplus"
+            android:tint="@color/teal_100"
+            app:backgroundTint="@color/gri"
+           >
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </LinearLayout>
+
+
+</FrameLayout>

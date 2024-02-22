@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cerceve.DateFragment">
+
+    <Button
+        android:id="@+id/btnsil"
+        android:text="Sil"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="15dp"></Button>
+    <EditText
+        android:id="@+id/txtOdasecsil"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="170dp"
+        ></EditText>
+    <TextView
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Silinecek randevu:"
+        android:textSize="20dp"
+       ></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="508dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>

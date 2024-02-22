@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplanotel"
+    tools:context=".cerceve.otelFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:cardBackgroundColor="@color/teal_600">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageslider"
+            app:iss_period="1000"
+            app:iss_auto_cycle="true"
+            app:iss_delay="1000"
+            app:iss_corner_radius="2"
+            app:iss_title_background="@color/teal_100"
+            android:layout_marginStart="0dp"
+            >
+
+        </com.denzcoskun.imageslider.ImageSlider>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="233dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Özellikler"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="✓7/24 Resepsiyon"
+            android:textColor="@color/gri"
+            android:textSize="17dp" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="✓Ücretsiz kablosuz internet"
+            android:textColor="@color/gri"
+            android:textSize="17dp" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="✓Restoran"
+            android:textColor="@color/gri"
+            android:textSize="17dp" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView7"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="✓Havaalanı transferi"
+            android:textColor="@color/gri"
+            android:textSize="17dp" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView8"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_centerVertical="true"
+            android:text="✓Ücretsiz otopark"
+            android:textColor="@color/gri"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_otelismi"
+        android:layout_width="202dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="11dp"
+        android:text="otel ismi"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="413dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İletişim Bilgileri"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Mail Adresimiz:"
+            android:textColor="@color/teal_700" />
+
+        <CheckedTextView
+            android:id="@+id/txt_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mail"
+            android:textColor="@color/gri"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Telefon:"
+            android:textColor="@color/teal_700" />
+
+        <CheckedTextView
+            android:id="@+id/txt_telefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefon"
+            android:textColor="@color/gri"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_rezerve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/white"
+        android:src="@drawable/icplus"
+        app:backgroundTint="@color/gri"
+        android:tint="@color/teal_100">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+</RelativeLayout>

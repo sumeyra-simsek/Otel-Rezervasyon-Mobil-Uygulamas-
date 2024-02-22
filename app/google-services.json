@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380103353665",
+    "project_id": "otel-f5611",
+    "storage_bucket": "otel-f5611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380103353665:android:4756d46cba6e5b1308edc0",
+        "android_client_info": {
+          "package_name": "com.sumeyrasimsek.otel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380103353665-q4a3d5a581lv29tr99rrrkfr71dje66t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm3iUAErQSKTLP4PtZ4FyunAuNvpa8Bfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380103353665-q4a3d5a581lv29tr99rrrkfr71dje66t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

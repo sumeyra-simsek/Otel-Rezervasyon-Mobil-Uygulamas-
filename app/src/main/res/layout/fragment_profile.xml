@@ -1,0 +1,73 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="600dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="30dp"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginVertical="25dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="311dp"
+        android:layout_height="514dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/palmtreeo" />
+
+        <TextView
+            android:id="@+id/txtProfilnae"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgProfile"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="47dp"
+            android:hint="🌼Merhaba "
+            android:textSize="25dp"></TextView>
+
+        <TextView
+            android:id="@+id/txtProfilname"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgProfile"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="47dp"
+            android:hint="İsim"
+            android:textSize="25dp"></TextView>
+
+        <Button
+            android:id="@+id/btnHesap"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/txtProfilname"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="59dp"
+            android:text="Hesap Ayarları" />
+
+        <Button
+            android:id="@+id/btnCikis"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btnHesap"
+            android:layout_marginStart="-151dp"
+            android:layout_marginTop="27dp"
+            android:layout_toEndOf="@+id/btnHesap"
+            android:text="Çıkış Yap" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
